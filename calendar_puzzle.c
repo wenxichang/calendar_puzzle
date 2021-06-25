@@ -209,7 +209,7 @@ static map_st *fill(map_st *old, int y, int x, pile_st *p)
 
 static void show_map(map_st *s)
 {
-	const char *str = " @ $ % T * X > <      ";
+	const char *str = " A B C D E F G J      ";
 	int i, j;
 
 	for (i = 3; i < 10; ++i) {
